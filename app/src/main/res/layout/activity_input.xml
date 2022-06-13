@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/pureskies" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/inputDaerah"
         android:layout_width="289dp"
         android:layout_height="62dp"
         android:layout_marginTop="20dp"
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/inputTanggal"
         android:layout_width="289dp"
         android:layout_height="62dp"
         android:layout_marginTop="20dp"
@@ -37,8 +37,8 @@
         android:focusable="false"
         android:hint="Tanggal"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/inputDaerah"
+        app:layout_constraintTop_toBottomOf="@+id/inputDaerah" />
 
     <Button
         android:id="@+id/button_prediksi"
@@ -48,7 +48,7 @@
         android:backgroundTint="#738A85"
         android:text="Prediksi"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="@+id/inputTanggal"
+        app:layout_constraintTop_toBottomOf="@+id/inputTanggal"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
