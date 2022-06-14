@@ -32,12 +32,9 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="345dp"
-        android:layout_height="85dp"
+        android:layout_width="348dp"
+        android:layout_height="121dp"
         android:layout_marginTop="24dp"
-        android:text="Polusi pada                  di              sebesar pm10 =      , pm25 =        , so2 =        ,
-        co =       , 03 =         , no2 =      , dan gas rumah kaca c02 =     .
-        Hasil ISPU ialah Tidak Baik, kami menganjurkan untuk selalu menjaga kesehatan dan menanam pohon jenis                   sebanyak 3 buah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +44,7 @@
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:srcCompat="@drawable/iqair31" />
@@ -56,7 +53,7 @@
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:srcCompat="@drawable/iqair41" />
@@ -65,7 +62,7 @@
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:srcCompat="@drawable/iqair51" />
@@ -81,6 +78,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

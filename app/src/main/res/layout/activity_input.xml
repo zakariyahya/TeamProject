@@ -17,28 +17,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pureskies" />
 
-    <EditText
-        android:id="@+id/inputDaerah"
+    <Spinner
+        android:id="@+id/sp_option"
         android:layout_width="289dp"
         android:layout_height="62dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Daerah"
-        android:inputType="textPersonName"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints" />
 
-    <EditText
+    <TextView
         android:id="@+id/inputTanggal"
-        android:layout_width="289dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="241dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
-        android:focusable="false"
-        android:hint="Tanggal"
+        android:focusable="auto"
+        android:hint="Select Date"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/inputDaerah"
-        app:layout_constraintTop_toBottomOf="@+id/inputDaerah" />
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/sp_option"
+        app:layout_constraintTop_toBottomOf="@+id/sp_option" />
 
     <Button
         android:id="@+id/button_prediksi"
@@ -50,5 +50,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/inputTanggal"
         app:layout_constraintTop_toBottomOf="@+id/inputTanggal"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="23dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#738A85"
+        app:layout_constraintBottom_toTopOf="@+id/button_prediksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/inputTanggal"
+        app:layout_constraintTop_toBottomOf="@+id/sp_option"
         app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
